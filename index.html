@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pop-Tart Collector!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/bootswatch.less" type="text/css" rel="stylesheet">
+    <link href="assets/css/variables.less" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            Pop-Tart Collector!
+        </div>
+    </div>
+    <div class="jumbotron">
+        <p>Try to guess my number by picking a pop-tart!</p>
+    </div>
+    <div class="well"> 
+        <img src="assets/images/strawberry.jpg" class="flavor" id="strawberry">
+        <img src="assets/images/smores.jpeg" class="flavor" id="smores">
+        <img src="assets/images/peanutbutter.jpeg" class="flavor" id="peanutbutter">
+        <img src="assets/images/cherry.jpeg" class="flavor" id="cherry">
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <span>Your total: </span>
+            <span class="yourTotal"></span>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            My number: <span class="myNumber"></span>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body scores">
+            <span id="wins">Wins: </span>
+            <br>
+            <span id="losses">Losses: </span>
+        </div>
+    </div>
+    <input type="button" value="Play Again!" onClick="window.location.reload()">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

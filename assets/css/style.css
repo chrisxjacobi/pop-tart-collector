@@ -1,0 +1,15 @@
+.flavor {
+	height: 160px;
+	width: 200px;
+	margin: 10px;
+} 
+
+.jumbotron, .panel-body {
+	text-align: center;
+}
+
+.myNumber, .yourTotal {
+	font-size: 20px;
+	color: blue;
+	
+}
