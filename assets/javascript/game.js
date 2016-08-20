@@ -69,31 +69,3 @@ $(document).ready(function() {
             
 
         });
-
-/*function userSum (crystalNumber) {
-      totalPoints += crystalNumber;
-
-      $("#pointDisplay").html(totalPoints);
-
-      if (totalPoints>randomNumber){
-
-          alert(":(");
-          losses++;
-          $('#losses').html(losses);
-
-          reset();
-
-      } else if (totalPoints == randomNumber)
-      {
-
-          alert("You Win!!");
-          wins++;
-          $('#wins').html(wins);
-
-          reset();
-      }
-
-
-  } */
-
-location.reload
